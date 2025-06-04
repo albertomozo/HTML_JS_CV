@@ -1,3 +1,31 @@
-.habilidades svg {
-    width:200px;
+* {
+    box-sizing: border-box;
 }
+
+/* estilos menu principal */
+/* aplicamos nesting */
+
+.menu {
+    ul {
+        li {
+            display : inline; /* li en horizontal */
+        }
+    }
+}
+
+#habilidades {
+    display : flex;
+}
+.hab {
+    svg {
+        width:200px;
+        fill : blue;
+        &:hover {
+            fill : yellow;
+        }
+    }
+    
+
+
+} 
+
