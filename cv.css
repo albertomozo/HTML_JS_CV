@@ -100,7 +100,18 @@ header {
 
 
 
+
 } 
+
+.hab   img {
+        width: 200px;
+        fill : red;
+    }
+.hab   img:hover {
+        width: 400px;
+       
+    }
+
 
 footer {
     background-color: #333;
