@@ -84,10 +84,31 @@ header {
     color : white;
 }
 
+.for{
+    display:flex;
+   
+    margin: 5px;
+}
+
+.for_ficha {
+    border-left: 10px dotted rgb(88, 79, 23);
+    padding-left: 30px;
+    margin: 0 10px;
+    background-color: bisque;
+    border-top-left-radius: 40px;
+    border-bottom-right-radius: 40px;
+}
+
+.for_logo img {
+    width: 200px;
+    
+}
 
 
-#habilidades {
+
+#habilidades, #habilidadesB {
     display : flex;
+    flex-wrap: wrap;
 }
 .hab {
     svg {
@@ -108,7 +129,15 @@ header {
         fill : red;
     }
 .hab   img:hover {
-        width: 400px;
+        width: 210px;
+       
+    }
+.habB   img {
+        width: 200px;
+        fill : red;
+    }
+.habB   img:hover {
+        width: 210px;
        
     }
 
@@ -119,3 +148,19 @@ footer {
     text-align: center;
     padding: 10px 0;
 }	
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+th, td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: left;
+}
+
+th {
+  background-color: #f4f4f4;
+  font-weight: bold;
+}
