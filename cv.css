@@ -13,48 +13,48 @@
     }
 } */
 
-   /* ESTILOS DEL MENÚ */
-        .menu {
-            width: 100%;
-            background-color: #333;
-            padding: 0;
-            font-family: 'Arial', sans-serif;
-        }
+/* ESTILOS DEL MENÚ */
+.menu {
+    width: 100%;
+    background-color: #333;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+}
 
-        .menu ul {
-            display: flex;  /* Distribución horizontal */
-            list-style: none;
-        }
+.menu ul {
+    display: flex;  /* Distribución horizontal */
+    list-style: none;
+}
 
-        .menu li {
-            flex: 1;  /* Cada li ocupa el mismo espacio */
-            text-align: center;
-            border-right: 1px solid #555;  /* Separador entre items */
-        }
+.menu li {
+    flex: 1;  /* Cada li ocupa el mismo espacio */
+    text-align: center;
+    border-right: 1px solid #555;  /* Separador entre items */
+}
 
-        .menu li:last-child {
-            border-right: none;  /* Quita borde del último elemento */
-        }
+.menu li:last-child {
+    border-right: none;  /* Quita borde del último elemento */
+}
 
-        .menu a {
-            display: block;
-            color: white;
-            text-decoration: none;
-            padding: 15px 0;
-            font-weight: bold;
-            transition: all 0.3s ease;
-            background-color: #000;
-        }
+.menu a {
+    display: block;
+    color: white;
+    text-decoration: none;
+    padding: 15px 0;
+    font-weight: bold;
+    transition: all 0.3s ease;
+    background-color: #000;
+}
 
-        .menu a:hover {
-            background-color: #444;
-            transform: scale(1.05);
-        }
+.menu a:hover {
+    background-color: #444;
+    transform: scale(1.05);
+}
 
-        /* EFECTO ACTIVO (opcional) */
-        .menu a.active {
-            background-color: #ff5722;
-        }
+/* EFECTO ACTIVO (opcional) */
+.menu a.active {
+    background-color: #ff5722;
+}
 h2 {
     text-align: center;
     color: white;
@@ -84,7 +84,48 @@ header {
     color : white;
 }
 
-.for{
+.exp {
+    display: flex;
+   
+    
+   
+    margin: 20px 10px;
+    background-color: bisque;
+    border-top-left-radius: 40px;
+    border-bottom-right-radius: 40px;
+}
+
+.exp_linea {
+    width: 30px;
+    background-color: #333;  
+}
+
+.exp_contenedor {
+    display: flex;
+    flex-direction: row;
+     border-left: 10px dotted rgb(88, 79, 23);
+    padding-left: 30px;
+}
+
+.exp_contenido {
+
+}
+ .exp_galeria{
+    display:flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+ }
+
+ .exp_galeria img {
+    
+    height: 100px;
+    margin : 10px;
+   	
+}
+
+.for {
     display:flex;
    
     margin: 5px;
@@ -103,6 +144,8 @@ header {
     width: 200px;
     
 }
+
+
 
 
 
@@ -152,6 +195,8 @@ footer {
 table {
   border-collapse: collapse;
   width: 100%;
+  max-width: 700px;
+  margin: 0 auto;
 }
 
 th, td {
@@ -160,7 +205,42 @@ th, td {
   text-align: left;
 }
 
+
 th {
-  background-color: #f4f4f4;
+  background-color: #0a0a0a;
   font-weight: bold;
+  text-align: center;
+  color : white
+}
+
+td {
+    text-align: right;
+}
+.idioma {
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: left;
+    font-weight: bolder;
+    font-size: 18px;
+    color :#333
+ }
+#rrss ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    list-style: none;
+}
+
+#rrss li img {
+    margin: 5px;
+    width: 50px;
+}
+
+.slogan {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    font-size: 1.5em;
+    color: #333;
+    font-style: italic;
+    margin: 20px 0;
 }
